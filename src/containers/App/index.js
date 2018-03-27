@@ -27,7 +27,7 @@ class App extends Component {
               <Switch>
                 <Route
                   exact
-                  path="/"
+                  path='/'
                   render={() =>
                     <Paragraph
                       textAlign='center'
