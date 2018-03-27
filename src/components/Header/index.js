@@ -4,9 +4,12 @@ import Box from 'grommet/components/Box';
 
 export const Header = ({ children }) =>
   <Box
-  tag='header'
-  background='brand'
-  align='center'
+    tag='header'
+    background='brand'
+    align='center'
+    pad={{
+      horizontal: 'medium'
+    }}
   >
     {children}
   </Box>;

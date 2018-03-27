@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders a Header 1`] = `
+<Box
+  align="center"
+  background="brand"
+  pad={
+    Object {
+      "horizontal": "medium",
+    }
+  }
+  tag="header"
+/>
+`;
+
+exports[`<Header /> renders a Header with children 1`] = `
+<Box
+  align="center"
+  background="brand"
+  pad={
+    Object {
+      "horizontal": "medium",
+    }
+  }
+  tag="header"
+>
+  <p>
+    test!
+  </p>
+</Box>
+`;
