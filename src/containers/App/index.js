@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Box, Heading, Paragraph, Header } from 'grommet';
+import { Box, Heading, Paragraph } from 'grommet';
+import Header from '../../components/Header';
 import theme from './theme';
 import { StyledApp } from './styles';
 
